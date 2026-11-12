@@ -350,3 +350,12 @@ html{scroll-padding-top:88px}
 @media(max-width:560px){.home-page .about-copy p.about-mission{font-size:12.5px;gap:10px;letter-spacing:.05em;align-items:flex-start}.home-page .about-mission .rule{width:24px;margin-top:8px}}
 .nw{white-space:nowrap}
 .journey-card p strong{color:var(--ink);font-weight:600}
+/* About me: tighter top, centred closing statement */
+.home-page #about{padding-top:14px}
+.home-page .about-close{text-align:center;margin:22px auto 0;max-width:900px}
+.home-page .about-copy .about-close p.about-motive{margin:0;text-align:center}
+.home-page .about-close .about-question{margin:8px auto 0;padding:0;border-left:0;max-width:860px;text-align:center}
+.home-page .about-copy .about-close p.about-mission{justify-content:center;margin-top:16px}
+.home-page .about-close .about-mission .rule:last-child{background:linear-gradient(90deg,var(--lilac),var(--accent))}
+@media(max-width:560px){.home-page #about{padding-top:10px}.home-page .about-close{margin-top:16px}.home-page .about-copy .about-close p.about-mission{align-items:center}.home-page .about-close .about-mission .rule{margin-top:0;width:18px}}
+@media(max-width:560px){.home-page .about-close .about-mission .rule{display:none}}
